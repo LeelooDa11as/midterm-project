@@ -5,19 +5,82 @@
     <meta charset="UTF-8" />
     <title>Circle Web</title>
     <link rel="stylesheet" href="./style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type="./style.css">
   </head>
   <body>
-    <p id="paragraph">What is your name?</p>
-    <a href="#" id="google-link" class="link">Google</a>
-
-    <div id="content">
-      <h1 id="title">Main title</h1>
-      <ul id="item-list"></ul>
+    <header>
+      <div class="container-flex-row">
+        <img src="./project-assets/project-assets/logos/circle.svg" alt="Circle logo"/>
+        <nav>
+          <h5>Home</h5>
+          <h5>Projects</h5>
+          <h5>Services</h5>
+        </nav>
+        <img id="menu" src="./project-assets/project-assets/additional images/icon-menu.png" alt="Menu icon"/>
+        <button id="blue-button">Contact Us</button>
     </div>
+    </header>
+    <section class="container-flex-row hero-section">
+      <div class="container-flex-column hero-text"> 
+        <h1>Empower Your<br>Business With<br>Stunning Design! </h1>
+        <h3>Circle is a digital design and development studio.<br>We design and develop astonishing websites<br> and mobile apps</h3>
+        <div class="flex-direction-row">
+          <button id="our-work-button">See our work</button>
+          <button id="blue-button">Get in touch</button>
+        </div>
+      </div>
+      <div id="main-image">
+        <img id="card-1" src="./project-assets/project-assets/hero-section/card-1.png" alt="Credit card image"/>
+        <img id="card-2" src="./project-assets/project-assets/hero-section/card-2.png" alt="Thumb up, project has been accepted"/>
 
-    <button id="add-item-button">Add item</button>
+      </div>
 
-    <!-- make sure you load .js file in the end so it executes when the DOM is ready -->
+    </section>
+    <section class="container-flex-row">
+      <img src="./project-assets/project-assets/logos/airbnb-logo.svg" alt="Airbnb logo"/>
+      <img src="./project-assets/project-assets/logos/google-logo.svg" alt="Google logo"/>
+      <img src="./project-assets/project-assets/logos/microsoft-logo.svg" alt="Microsoft logo"/>
+      <img src="./project-assets/project-assets/logos/fedex-logo.svg" alt="FedEx logo"/>
+      <img class="disapper-in-mobile-version" src="./project-assets/project-assets/logos/amazon-logo.svg" alt="Amazon logo"/>
+
+    </section>
+
+    <section class="container-flex-column">
+      <h2>Recent Projects</h2>
+      <div class="container-flex-row">
+        <div class="flex-item-project">
+          <img class="flex-image-project" src="./project-assets/project-assets/projects-section/1.jpg" alt="Simplify logo"/>
+          <h4>Simplify</h4>
+          <p>UI Design & App Development</p>
+          <a href="url">Learn More</a>
+        </div>
+        <div class="flex-item-project">
+          <img class="flex-image-project" src="./project-assets/project-assets/projects-section/2.jpg" alt="Dashcoin logo"/>
+          <h4>Dashcoin</h4>
+          <p>Web Development</p>
+          <a href="url">Learn More</a>
+        </div>
+        <div class="flex-item-project">
+          <img class="flex-image-project" src="./project-assets/project-assets/projects-section/5.jpg" alt="User Experience logo"/>
+          <h4>Vectorify</h4>
+          <p>User Experience Design</p>
+          <a href="url">Learn More</a>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="testimonial-section">
+      <div class="container-flex-column testimonial-items">
+        <h2 id="h2-white">Hear What Our Clients Have to Say</h2>
+        <p id="p-testimonial">"Circle helped us through every stage of our startup.<br>We really enjoyed working with you."</p>
+        <img id="testimonial-profile" src="./project-assets/project-assets/testimonial-section/profile.png" alt="Client logo"/>
+      </div>
+      <img id="testimonial-emoji-top-left" src="./project-assets/project-assets/testimonial-section/memoji-1.png" alt=""/>
+      <img id="testimonial-emoji-top-right" src="./project-assets/project-assets/testimonial-section/memoji-4.png" alt=""/>
+      <img id="testimonial-emoji-bottom-left" src="./project-assets/project-assets/testimonial-section/memoji-3.png" alt=""/>
+      <img id="testimonial-emoji-bottom-right" src="./project-assets/project-assets/testimonial-section/memoji-2.png" alt=""/>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

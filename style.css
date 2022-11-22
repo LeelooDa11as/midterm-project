@@ -1,3 +1,231 @@
-#paragraph {
-    color: red;
+body {
+    background-color: #F2F4FC;
+    margin: 0%;
+    width: 100%;
+    color: #292E47;
+    font-family: "Roboto", sans-serif;
+}
+@media (min-width: 1024px) {
+    .container-flex-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-flex-column {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+    }
+
+    header {
+        margin: 60px 10%;
+    }
+    
+    section{
+        margin: 80px 10%;
+    }
+    
+    .small-height {
+        height: 40px;
+    }
+
+    #circle {
+        color: #072AC8;
+        size: 40;
+        font-weight: bold;
+    }    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 25%;
+        color: #6B708D;
+        align-items: center;
+    }
+    #menu {
+        display:none
+    }
+
+    #blue-button {
+        background-color:#072AC8;
+        color:white;
+        border: none;
+        padding: 10px 25px;
+    }
+    #our-work-button {
+        border: none;
+        background-color: #F2F4FC;
+        color:#68708D;
+        font-size: 19px;
+        font-weight: light;
+    }
+
+    .hero-section{
+        height: 650px;
+        justify-content: space-between;
+    }
+    .hero-text {
+        width: 50%;
+    }
+
+    h1{
+        font-weight: bold;
+        font-size: 60px;
+    }
+    h3 {
+        font-weight: lighter;
+        font-size: 20px;
+        color: #68708D;
+        line-height: 160%;
+    }
+    #main-image {
+        width: 50%;
+        background-image: url("./project-assets/project-assets/hero-section/hero-image.png");
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+
+    #card-1{
+        width: 50%;
+        position: absolute;
+        left: -20%;
+    }
+
+    #card-2{
+        width: 50%;
+        position: absolute;
+        bottom: -15%;
+        right: -20%;
+    }
+
+    h2 {
+        color: #292E47;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    .flex-item-project {
+        width: 30%;
+        background-color: white;
+    }
+
+    .flex-image-project {
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #072AC8;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .testimonial-section{
+
+        margin: 100px 3%;
+        height: 600px;
+        background-color: #292e47;
+        background-image: url(./project-assets/project-assets/testimonial-section/orbit.png);
+        background-size: contain;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+
+    #h2-white{
+        color: whitesmoke;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #p-testimonial{
+        color: #ffc600;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 160%;
+
+    }
+    
+
+    .testimonial-items{
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #testimonial-profile {
+        width: 60px;
+        height: 60px;
+        border-radius: 80%;
+    }
+
+    #testimonial-emoji-top-left {
+        width: 12%;
+        position: absolute;
+        left: 13%;
+        top: 0%;
+    }
+
+    #testimonial-emoji-top-right {
+        width: 12%;
+        position: absolute;
+        right: 13%;
+        top: 0%;
+    }
+
+    #testimonial-emoji-bottom-left {
+        width: 12%;
+        position: absolute;
+        left: 13%;
+        bottom: 0%;
+    }
+
+    #testimonial-emoji-bottom-right {
+        width: 12%;
+        position: absolute;
+        right: 13%;
+        bottom: 0%;
+    }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .disapper-in-mobile-version{
+        display: none;
+    }
+    .small-height {
+        height: 30px;
+    }
+    #circle {
+        color:#072AC8;
+        font-size: 20px;
+        font-weight: bold;
+    } 
+
+    nav {
+        display: none;
+    }
+
+    #blue-button {
+        display: none;
+    }
+
+    .container-flex-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #menu {
+        height: 100%;
+    }
+
+
+    
+   
+
 }
