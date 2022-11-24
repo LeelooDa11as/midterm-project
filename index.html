@@ -17,50 +17,49 @@
           <h5>Services</h5>
         </nav>
         <img id="menu" src="./project-assets/project-assets/additional images/icon-menu.png" alt="Menu icon"/>
-        <button id="blue-button">Contact Us</button>
+        <button id="contact-button">Contact Us</button>
     </div>
     </header>
-    <section class="container-flex-row hero-section">
-      <div class="container-flex-column hero-text"> 
+    <section class="hero-section">
+      <div class="hero-text"> 
         <h1>Empower Your<br>Business With<br>Stunning Design! </h1>
         <h3>Circle is a digital design and development studio.<br>We design and develop astonishing websites<br> and mobile apps</h3>
-        <div class="flex-direction-row">
+        <div class="section-hero-buttons">
           <button id="our-work-button">See our work</button>
-          <button id="blue-button">Get in touch</button>
+          <button id="get-in-touch-button">Get in touch</button>
         </div>
       </div>
-      <div id="main-image">
+      <div id="hero-image">
         <img id="card-1" src="./project-assets/project-assets/hero-section/card-1.png" alt="Credit card image"/>
         <img id="card-2" src="./project-assets/project-assets/hero-section/card-2.png" alt="Thumb up, project has been accepted"/>
 
       </div>
 
     </section>
-    <section class="container-flex-row">
+    <section class="logos-section">
       <img src="./project-assets/project-assets/logos/airbnb-logo.svg" alt="Airbnb logo"/>
       <img src="./project-assets/project-assets/logos/google-logo.svg" alt="Google logo"/>
       <img src="./project-assets/project-assets/logos/microsoft-logo.svg" alt="Microsoft logo"/>
       <img src="./project-assets/project-assets/logos/fedex-logo.svg" alt="FedEx logo"/>
-      <img class="disapper-in-mobile-version" src="./project-assets/project-assets/logos/amazon-logo.svg" alt="Amazon logo"/>
-
+      <img id="amazon-logo" src="./project-assets/project-assets/logos/amazon-logo.svg" alt="Amazon logo"/>
     </section>
 
-    <section class="container-flex-column">
+    <section class="project-section">
       <h2>Recent Projects</h2>
-      <div class="container-flex-row">
-        <div class="flex-item-project">
+      <div class="project-and-service-flex-container">
+        <div class="flex-item-project-and-services">
           <img class="flex-image-project" src="./project-assets/project-assets/projects-section/1.jpg" alt="Simplify logo"/>
           <h4>Simplify</h4>
           <p>UI Design & App Development</p>
           <a href="url">Learn More</a>
         </div>
-        <div class="flex-item-project">
+        <div class="flex-item-project-and-services">
           <img class="flex-image-project" src="./project-assets/project-assets/projects-section/2.jpg" alt="Dashcoin logo"/>
           <h4>Dashcoin</h4>
           <p>Web Development</p>
           <a href="url">Learn More</a>
         </div>
-        <div class="flex-item-project">
+        <div class="flex-item-project-and-services">
           <img class="flex-image-project" src="./project-assets/project-assets/projects-section/5.jpg" alt="User Experience logo"/>
           <h4>Vectorify</h4>
           <p>User Experience Design</p>
@@ -71,16 +70,73 @@
     </section>
 
     <div class="testimonial-section">
-      <div class="container-flex-column testimonial-items">
+      <div class="testimonial-flex-container">
         <h2 id="h2-white">Hear What Our Clients Have to Say</h2>
         <p id="p-testimonial">"Circle helped us through every stage of our startup.<br>We really enjoyed working with you."</p>
-        <img id="testimonial-profile" src="./project-assets/project-assets/testimonial-section/profile.png" alt="Client logo"/>
+        <div class="testimonial-contact">
+          <img id="testimonial-profile" src="./project-assets/project-assets/testimonial-section/profile.png" alt="Client logo"/>
+          <div class="tesminonial-info">
+            <p id="p-testimonial-name">Kristen Watson</p>
+            <p id="p-testimonial-web">Booking.com</p>
+          </div>
+        </div>
       </div>
+      
       <img id="testimonial-emoji-top-left" src="./project-assets/project-assets/testimonial-section/memoji-1.png" alt=""/>
       <img id="testimonial-emoji-top-right" src="./project-assets/project-assets/testimonial-section/memoji-4.png" alt=""/>
       <img id="testimonial-emoji-bottom-left" src="./project-assets/project-assets/testimonial-section/memoji-3.png" alt=""/>
       <img id="testimonial-emoji-bottom-right" src="./project-assets/project-assets/testimonial-section/memoji-2.png" alt=""/>
     </div>
+
+    <section class="service-section">
+      <h2>Our Services</h2>
+      <div class="project-and-service-flex-container">
+        <div class="flex-item-project-and-services">
+          <img src="./project-assets/project-assets/services-section/icons/1.svg" alt="" />
+          <h4>User Interface Design</h4>
+          <p>Circle provides you with a stunning <br> user interface design that is <br> accessible to everyone.</p>
+          <a href="url">Learn More</a>
+        </div>
+        <div class="flex-item-project-and-services">
+          <img src="./project-assets/project-assets/services-section/icons/2.svg" alt="" />
+          <h4>User Experience Design</h4>
+          <p>Circle always focuses on delivering the best user experience to your customers.</p>
+          <a href="url">Learn More</a>
+        </div>
+        <div class="flex-item-project-and-services">
+          <img src="./project-assets/project-assets/services-section/icons/3.svg" alt="" />
+          <h4>Application Development</h4>
+          <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+          <a href="url">Learn More</a>
+        </div>
+
+      </div>
+    </section>
+    <div class="question-section">
+      <h2>Do you have any questions?</h2>
+      <p>Let us help you!</p>
+      <div class="input-bar">
+        <input class="input-email" type="text" placeholder="Enter your email">
+        <button class="button-suscribe">Suscribe</button>
+      </div>
+    </div>
+
+    <footer class="container-flex-row">
+      <div class="container-flex-column">
+        <div>
+          <img src="./project-assets/project-assets/logos/circle.svg" alt="Circle logo"/>
+        </div>
+        <h5>2972 Westheimer Rd. Santa Ana, <br> Illinois 85486</h5>
+      </div>
+      <div class="grid">
+        <a href="" class="box a">Team</a> 
+        <a href="" class="box b">Services</a> 
+        <a href="" class="box c">About Us</a> 
+        <a href="" class="box d">Press</a> 
+        <a href="" class="box e">Projects</a> 
+        <a href="" class="box f">Privacy Policy</a> 
+      </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>
