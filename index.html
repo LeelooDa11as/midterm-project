@@ -9,14 +9,18 @@
   </head>
   <body>
     <header>
-      <div class="container-flex-row">
+      <div class="header-container">
         <img src="./project-assets/project-assets/logos/circle.svg" alt="Circle logo"/>
-        <nav>
-          <h5>Home</h5>
-          <h5>Projects</h5>
-          <h5>Services</h5>
-        </nav>
-        <img id="menu" src="./project-assets/project-assets/additional images/icon-menu.png" alt="Menu icon"/>
+        <div class="unfoldable-menu">
+          <button id="menu">
+            <img  src="./project-assets/project-assets/additional images/icons8-menu-rounded-30.png" alt="Menu icon"/>
+          </button>
+          <nav>
+            <h5>Home</h5>
+            <h5>Projects</h5>
+            <h5>Services</h5>
+          </nav>
+        </div>
         <button id="contact-button">Contact Us</button>
     </div>
     </header>
@@ -37,11 +41,11 @@
 
     </section>
     <section class="logos-section">
-      <img src="./project-assets/project-assets/logos/airbnb-logo.svg" alt="Airbnb logo"/>
-      <img src="./project-assets/project-assets/logos/google-logo.svg" alt="Google logo"/>
-      <img src="./project-assets/project-assets/logos/microsoft-logo.svg" alt="Microsoft logo"/>
-      <img src="./project-assets/project-assets/logos/fedex-logo.svg" alt="FedEx logo"/>
-      <img id="amazon-logo" src="./project-assets/project-assets/logos/amazon-logo.svg" alt="Amazon logo"/>
+        <img class="logos-box l1"src="./project-assets/project-assets/logos/airbnb-logo.svg" alt="Airbnb logo"/>
+        <img class="logos-box l2"src="./project-assets/project-assets/logos/google-logo.svg" alt="Google logo"/>
+        <img class="logos-box l3"src="./project-assets/project-assets/logos/microsoft-logo.svg" alt="Microsoft logo"/>
+        <img class="logos-box l4"src="./project-assets/project-assets/logos/fedex-logo.svg" alt="FedEx logo"/>
+        <img id="amazon-logo" src="./project-assets/project-assets/logos/amazon-logo.svg" alt="Amazon logo"/>
     </section>
 
     <section class="project-section">
@@ -51,7 +55,7 @@
           <img class="flex-image-project" src="./project-assets/project-assets/projects-section/1.jpg" alt="Simplify logo"/>
           <h4>Simplify</h4>
           <p>UI Design & App Development</p>
-          <a href="url">Learn More</a>
+          <a href="./simplify.html">Learn More</a>
         </div>
         <div class="flex-item-project-and-services">
           <img class="flex-image-project" src="./project-assets/project-assets/projects-section/2.jpg" alt="Dashcoin logo"/>
@@ -114,15 +118,15 @@
     </section>
     <div class="question-section">
       <h2>Do you have any questions?</h2>
-      <p>Let us help you!</p>
+      <p id="p-sercive">Let us help you!</p>
       <div class="input-bar">
         <input class="input-email" type="text" placeholder="Enter your email">
         <button class="button-suscribe">Suscribe</button>
       </div>
     </div>
 
-    <footer class="container-flex-row">
-      <div class="container-flex-column">
+    <footer>
+      <div class="footer-address-flex-container">
         <div>
           <img src="./project-assets/project-assets/logos/circle.svg" alt="Circle logo"/>
         </div>
